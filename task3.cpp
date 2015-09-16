@@ -24,8 +24,6 @@ void assert(int n, int ans){
 }
 
 int main(){
-    int n;
-    scanf("%d", &n);
     assert(1, 0);
     assert(6, 1);
     assert(10, 2);
