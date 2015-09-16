@@ -7,12 +7,12 @@ const double PI=3.14159265358979;
 
 long double pi(double eps){
     double sum = 0.0;
-	for (int i = 1; 1.0 / i >= E; i += 4)
+	for (int i = 1; 1.0 / i >= eps; i += 4)
 	{   
 		sum = sum + (1.0 / i);
 		
 	}
-	for (int i = 3; 1.0 / i >= E;i += 4)
+	for (int i = 3; 1.0 / i >= eps;i += 4)
 	{
 		sum = sum - (1.0 / i);
 		
