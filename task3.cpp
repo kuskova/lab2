@@ -3,7 +3,17 @@
 using namespace std;
 
 int how_many_zero(int n){
-    return 0;
+    int zero = 0;
+
+	for (int i = 1; i <= number; i++)
+	{
+		int i1 = i;
+			while (i1 % 5 == 0) {
+				zero = zero + 1;
+				i1 = i1 / 5;
+			}
+		}
+	return zero;
 }
 
 void assert(int n, int ans){
