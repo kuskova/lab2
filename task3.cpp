@@ -5,7 +5,7 @@ using namespace std;
 int how_many_zero(int n){
     int zero = 0;
 
-	for (int i = 1; i <= number; i++)
+	for (int i = 1; i <= n; i++)
 	{
 		int i1 = i;
 			while (i1 % 5 == 0) {
